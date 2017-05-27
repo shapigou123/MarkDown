@@ -12,7 +12,7 @@
 - 内部链接：连接仓库的其他文件[demo1](demo1.md)
 
 
-- 内部链接2：链接到本文档的其他部分[代码块demo](demo2.md#代码块-demo)
+- 内部链接2：链接到本文档的其他部分[代码块demo](#mark)
 
 
 ## 引用式链接
@@ -21,7 +21,7 @@
 - 内部链接：连接仓库的其他文件[demo1](demo1.md)
 
 
-- 内部链接2：链接到本文档的其他部分[代码块demo](demo2.md#代码块-demo)
+- 内部链接2：链接到本文档的其他部分[引用demo](#jump)
 
 
 # 图片 demo
@@ -38,6 +38,8 @@
 ![][images]
 ![](images/0print.jpg "images")
 
+
+<span id="jump"></span>
 # 引用 demo
 单次引用  
 > 这是一个引文
@@ -47,6 +49,7 @@
 多次引用  
 >> 这是多重引用  
 
+<div id="mark"></div>
 # 代码块 demo
 
 - 行内代码  
@@ -67,4 +70,5 @@ console.log(a);
 
 [baidu_logo]: https://ss0.bdstatic.com/5aV1bjqh_Q23odCf/static/superman/img/logo/bd_logo1_31bdc765.png
 [images]: images/0print.jpg
+
 
