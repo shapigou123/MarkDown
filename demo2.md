@@ -12,7 +12,7 @@
 - 内部链接：连接仓库的其他文件[demo1](demo1.md)
 
 
-- 内部链接2：链接到本文档的其他部分[代码块demo](demo2.md#代码块demo)
+- 内部链接2：链接到本文档的其他部分[代码块demo](demo2.md#代码块-demo)
 
 
 ## 引用式链接
@@ -21,14 +21,15 @@
 - 内部链接：连接仓库的其他文件[demo1](demo1.md)
 
 
-- 内部链接2：链接到本文档的其他部分[代码块demo](demo2.md#代码块demo)
+- 内部链接2：链接到本文档的其他部分[代码块demo](demo2.md#代码块-demo)
 
 
 # 图片 demo
 
-- 图片的markdown语法
-    ![alt](url text)
-
+- 图片的markdown语法  
+```
+![alt](url text)
+```
 - 外部图片 demo  
 ![baidu][baidu_logo]
 ![baidu](https://ss0.bdstatic.com/5aV1bjqh_Q23odCf/static/superman/img/logo/bd_logo1_31bdc765.png "baidu")
