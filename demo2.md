@@ -39,7 +39,8 @@
 ![](images/0print.jpg "images")
 
 
-<span id="jump"></span>
+<span id="jump"></span>  
+
 # 引用 demo
 单次引用  
 > 这是一个引文
@@ -49,7 +50,8 @@
 多次引用  
 >> 这是多重引用  
 
-<div id="mark"></div>
+<div id="mark"></div>  
+
 # 代码块 demo
 
 - 行内代码  
