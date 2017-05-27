@@ -67,7 +67,30 @@ Github Flvored Markdown, GFM特色语法
 :blush:
 
 
+#引用链接的问题  
+基本引用链接的用法：
+
+`[链接文字][url]`  
+good:  
+[百度][baidu]  
+[百度网站][baidu]  
+
+lower:自引用  
+[百度]  
+[百度网站]
+
+
+#多级列表
+1. item1  
+  1. item1.1
+  2. item1.2
+2. item2
+3. item3
+ 
+
 
 <!--- 下面是本文档中用到的链接 -->
 [百度]: https://www.baidu.com
+[百度网站]: https://www.baidu.com
 [images]: images/timg.jpg
+[baidu]: https://www.baidu.com
